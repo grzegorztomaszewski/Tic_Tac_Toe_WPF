@@ -1,0 +1,35 @@
+﻿   <Page
+    x:Class="kolkoikrzyzyk.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:kolkoikrzyzyk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Height="459" Width="435">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="153"/>
+            <RowDefinition Height="153"/>
+            <RowDefinition Height="153"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="145"/>
+            <ColumnDefinition Width="145"/>
+            <ColumnDefinition Width="145"/>
+        </Grid.ColumnDefinitions>
+        <!---TOP-->
+        <Button x:Name="B1" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="135" Height="143" Margin="5" Background="LimeGreen" BorderBrush="DarkGreen" Click="ClickButton" FontSize="100"></Button>
+        <Button x:Name="B4" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="135" Height="143" Margin="5" Background="LimeGreen" BorderBrush="DarkGreen" Click="ClickButton" FontSize="100"></Button>
+        <Button x:Name="B7" Grid.Column="2" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="135" Height="143" Margin="5" Background="LimeGreen" BorderBrush="DarkGreen" Click="ClickButton" FontSize="100"></Button>
+        <!---MID-->
+        <Button x:Name="B2" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="135" Height="143" Margin="5" Background="LimeGreen" BorderBrush="DarkGreen" Click="ClickButton" FontSize="100"></Button>
+        <Button x:Name="B5" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="135" Height="143" Margin="5" Background="LimeGreen" BorderBrush="DarkGreen" Click="ClickButton" FontSize="100"></Button>
+        <Button x:Name="B8" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="135" Height="143" Margin="5" Background="LimeGreen" BorderBrush="DarkGreen" Click="ClickButton" FontSize="100"></Button>
+        <!---BOT-->
+        <Button x:Name="B3" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="135" Height="143" Margin="5" Background="LimeGreen" BorderBrush="DarkGreen" Click="ClickButton" FontSize="100"></Button>
+        <Button x:Name="B6" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="135" Height="143" Margin="5" Background="LimeGreen" BorderBrush="DarkGreen" Click="ClickButton" FontSize="100"></Button>
+        <Button x:Name="B9" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="135" Height="143" Margin="5" Background="LimeGreen" BorderBrush="DarkGreen" Click="ClickButton" FontSize="100"></Button>
+    </Grid>
+</Page>
